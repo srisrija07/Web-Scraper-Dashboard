@@ -1,6 +1,4 @@
-#!/usr/bin/env python3
-# -*- coding: utf-8 -*-
-"""
+
 Web Scraper Dashboard (Python Script Version)
 Fixed version – works in terminal (NO Jupyter widgets)
 """
@@ -11,9 +9,9 @@ from bs4 import BeautifulSoup
 import matplotlib.pyplot as plt
 from collections import Counter
 
-# -------------------------
+
 # Scraping Functions
-# -------------------------
+-------------------------
 
 def scrape_weather():
     cities = ["London", "New York", "Tokyo", "Delhi", "Sydney"]
